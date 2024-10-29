@@ -37,7 +37,7 @@ print(top_death_rate)
 # Plot recovery rates
 plt.figure(figsize=(10, 5))
 sns.barplot(x='Country/Region', y='Recovered / 100 Cases', data=data.nlargest(10, 'Recovered / 100 Cases'))
-plt.title("Top 10 Countries by Recovery Rate")
+plt.title("Top 10 Countries by Recovery Rate") 
 plt.xticks(rotation=90)
 plt.show()
 
